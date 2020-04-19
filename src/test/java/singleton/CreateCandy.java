@@ -2,7 +2,7 @@ package singleton;
 import java.util.logging.Logger;
 
 public class CreateCandy {
-   private  static final Logger logger = Logger.getLogger(CandyMaker.class.getName());
+   private  static final Logger logger = Logger.getLogger(CreateCandy.class.getName());
     public static void main(String[] args) {
 
         CandyMaker candy1=CandyMaker.getCandy();
